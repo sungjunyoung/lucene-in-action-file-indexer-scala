@@ -56,9 +56,9 @@ class Worker(indexDir: String) {
     // Add file contents
     doc.add(new TextField("contents", new FileReader(f)))
     // Add file name
-    doc.add(new TextField("filename", f.getName, Store.NO))
+    doc.add(new TextField("filename", f.getName, Store.YES))
     // Add file canonical path
-    doc.add(new TextField("fullpath", f.getCanonicalPath, Store.NO))
+    doc.add(new TextField("fullpath", f.getCanonicalPath, Store.YES))
     doc
   }
 
