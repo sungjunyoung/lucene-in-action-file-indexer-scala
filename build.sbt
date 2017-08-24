@@ -10,4 +10,7 @@ libraryDependencies += "com.novocode" % "junit-interface" % "0.10" % "test"
 
 libraryDependencies += "org.apache.lucene" % "lucene-core" % "4.3.0"
 
-libraryDependencies += "org.apache.lucene" % "lucene-analyzers-common" % "4.6.0"
+libraryDependencies += "org.apache.lucene" % "lucene-analyzers-common" % "4.3.0"
+
+libraryDependencies += "org.scalactic" %% "scalactic" % "3.0.1"
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"

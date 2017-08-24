@@ -16,7 +16,7 @@ class Worker(indexDir: String) {
 
   // Make lucene IndexWriter
   val writerConfig: IndexWriterConfig =
-    new IndexWriterConfig(Version.LUCENE_46, new StandardAnalyzer(Version.LUCENE_46))
+    new IndexWriterConfig(Version.LUCENE_43, new StandardAnalyzer(Version.LUCENE_43))
   val writer: IndexWriter = new IndexWriter(dir, writerConfig)
 
   // Close IndexWriter
